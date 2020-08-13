@@ -1,0 +1,68 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/*Nav*/
+
+.navbar-brand {
+    color: black;
+    font-size: 2.5em;
+    font-weight: 200;
+    letter-spacing: 0.8em;
+    margin-left: 3%;
+}
+
+.navbar-brand:hover {
+    color: rgb(185, 179, 179);
+}
+
+
+/*Main*/
+
+.title {
+    font-family: 'Bungee', sans-serif;
+    font-size: 5em;
+    margin-left: 1.3em;
+    border-bottom: solid 5px black;
+}
+
+.heading {
+    margin-left: 25%;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1em;
+}
+
+.cmds {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+}
+
+
+/*Footer*/
+
+.bottom {
+    margin-top: 6em;
+    height: 100%;
+    color: white;
+}
+
+.link {
+    color: goldenrod;
+}
+
+.link:hover {
+    color: rgb(146, 33, 221);
+    text-decoration: none;
+}
+
+#grid {
+    color: goldenrod;
+}
+
+#grid:hover {
+    color: rgb(146, 33, 221);
+}

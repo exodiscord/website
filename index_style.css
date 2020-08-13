@@ -1,0 +1,434 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/*Header*/
+
+.navbar-brand {
+    color: goldenrod;
+    font-size: 2.5em;
+    font-weight: 200;
+    letter-spacing: 0.8em;
+    margin-left: 3%;
+}
+
+.navbar-brand:hover {
+    color: rgb(146, 33, 221);
+}
+
+.widgets {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+    z-index: 1000;
+}
+
+
+/*Body*/
+
+woah {
+    background-color: yellow;
+}
+
+.section1 {
+    width: 100%;
+    background-color: yellow;
+    border-bottom: 5px solid purple;
+}
+
+.intro {
+    color: black;
+    margin-left: 20%;
+    margin-top: 17%;
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 6em;
+    font-style: italic;
+    line-height: 1.4em;
+}
+
+.top {
+    margin-left: 0%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.6em;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+}
+
+.space-img {
+    width: 190%;
+    margin-left: -7em;
+    margin-top: 1.5em;
+    animation: moveUp ease 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+    overflow: hidden;
+}
+
+@keyframes moveUp {
+    from {
+        margin-top: 1.5em;
+    }
+    to {
+        margin-top: -1.5em;
+    }
+}
+
+.tag1 {
+    margin-left: 10%;
+    margin-top: 4em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
+
+.tag2 {
+    margin-left: 10%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1Zem;
+}
+
+.wrap {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    z-index: 1;
+}
+
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+
+.parallax {
+    background-image: url("exo-images/purple.jpg");
+    min-height: 5vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    color: white;
+    height: 70px;
+    font-family: 'Bungee', sans-serif;
+    margin-bottom: 2em;
+}
+
+.btn1 {
+    background-color: rgb(146, 33, 221);
+    font-size: 2em;
+    padding-top: 0.3em;
+}
+
+.btn1:hover {
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    background-image: url(exo-images/exo.gif);
+    box-shadow: 0px 0px 15px rgb(146, 33, 221);
+}
+
+.btn2 {
+    background-color: rgb(28, 74, 223);
+    font-size: 2em;
+    padding-top: 0.3em;
+}
+
+.btn2:hover {
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    background-image: url(exo-images/entity.gif);
+    box-shadow: 0px 0px 15px rgb(28, 74, 223);
+}
+
+.btn3 {
+    color: gray;
+    background-color: wheat;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 0.4em;
+    font-size: 1.7em;
+    margin-bottom: 3em;
+}
+
+.btn3:hover {
+    color: wheat;
+    background-color: black;
+    box-shadow: 5px -5px rgb(28, 74, 223), -5px 5px rgb(146, 33, 221);
+}
+
+.btn4 {
+    color: white;
+    background-color: rgb(196, 196, 196);
+    height: 40px;
+    margin-top: em;
+}
+
+.details {
+    font-family: 'Quicksand', cursive;
+    font-size: 1.5em;
+    color: black;
+    padding: 1em;
+    text-indent: 1em;
+}
+
+.title1 {
+    color: rgb(146, 33, 221);
+    font-size: 2.5em;
+    font-weight: 200;
+    letter-spacing: 0.3em;
+    padding-bottom: 0.5em;
+    padding-top: 20%;
+}
+
+.title2 {
+    color: rgb(28, 74, 223);
+    font-size: 2.5em;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    padding-bottom: 0.5em;
+    padding-top: 20%;
+}
+
+span {
+    color: rgb(28, 74, 223);
+    font-style: italic;
+}
+
+.typewriter {
+    opacity: 0;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0;
+    animation: typing 2s steps(35, end), blink-caret .8s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        opacity: 1;
+        border-color: transparent;
+    }
+    50% {
+        border-color: SmokyWhite;
+    }
+}
+
+.fade {
+    animation: fadeIn ease 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*Features*/
+
+.ftrs {
+    border-top: 5px solid goldenrod;
+    background-color: rgb(216, 199, 255);
+}
+
+.a-img {
+    width: 25em;
+}
+
+.kick {
+    margin-top: -42em;
+    margin-left: 16em;
+}
+
+.ban {
+    margin-bottom: 3em;
+    margin-top: 17em;
+    margin-left: 3em;
+}
+
+.first {
+    padding: 8em;
+}
+
+.heading1 {
+    font-family: 'Bungee', sans-serif;
+    padding-top: 1em;
+}
+
+.details1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.heading2 {
+    font-family: 'Bungee', sans-serif;
+    padding-top: 1em;
+    margin-top: 2em;
+}
+
+.details2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.second {
+    padding: 5em;
+}
+
+.server {
+    margin-top: 5em;
+}
+
+.channel {
+    margin-left: 14em;
+    margin-top: -7em;
+}
+
+.third {
+    padding: 12em;
+}
+
+.meme {
+    margin-top: 8em;
+    margin-left: 8em;
+    margin-bottom: 7em;
+}
+
+.heading3 {
+    font-family: 'Bungee', sans-serif;
+    padding-top: 1em;
+}
+
+.details3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+
+/*Footer*/
+
+.bottom {
+    height: 100%;
+    color: white;
+}
+
+.link {
+    color: goldenrod;
+}
+
+.link:hover {
+    color: rgb(146, 33, 221);
+    text-decoration: none;
+}
+
+
+/*Media Queries*/
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .intro {
+        font-size: 9em;
+        margin-top: 1.3em;
+    }
+    .tag1 {
+        font-size: 1.5em;
+        margin-top: 6em;
+    }
+    .tag2 {
+        font-size: 1.5em;
+    }
+    .title1 {
+        font-size: 3em;
+        margin-left: 10%;
+    }
+    .title2 {
+        font-size: 3em;
+        margin-left: 10%;
+    }
+    .details {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2.3em;
+        margin-bottom: 1em;
+        margin-left: 10%;
+    }
+    .btn1 {
+        font-size: 2.5em;
+        margin-bottom: 1.5em;
+        width: 90%;
+        margin-left: 10%;
+    }
+    .btn1:hover {
+        font-size: 2.5em;
+    }
+    .btn2 {
+        font-size: 2.5em;
+        margin-bottom: 1.5em;
+        width: 90%;
+        margin-left: 10%;
+    }
+    .btn2:hover {
+        font-size: 2.5em;
+    }
+    .btn3 {
+        font-size: 2.5em;
+        padding-top: 0.1em;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {}
