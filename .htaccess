@@ -1,1 +1,3 @@
 ErrorDocument 404 "404 Page Not Found"
+
+Redirect test.html https://google.com
