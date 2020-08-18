@@ -1,3 +1,2 @@
 ErrorDocument 404 /404.html
-
 Redirect /vote/ https://top.gg/bot/707641033210593351
