@@ -1,1 +1,3 @@
 ErrorDocument 404 "404 Page Not Found"
+
+Redirect /vote/ https://top.gg/bot/707641033210593351
