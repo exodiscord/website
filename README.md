@@ -1,4 +1,4 @@
-<font size="20"> Ξ X 0 Discord Bot </font> 
+# Ξ X 0 Discord Bot
 
 This is the Official Github of the Ξ X 0 Website: https://exobot.xyz
 
