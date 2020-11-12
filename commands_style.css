@@ -45,9 +45,10 @@ html {
 /*Footer*/
 
 .bottom {
-    margin-top: 6em;
     height: 100%;
     color: white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .link {

@@ -1,6 +1,8 @@
 .bottom {
     height: 100%;
     color: white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .link {
