@@ -6,9 +6,9 @@
 }
 
 .btn1 {
-    background-color: rgb(146, 33, 221);
+    background-color: #343f69;
     font-size: 2em;
-    margin-top: 70%;
+    margin-top: 10%;
 }
 
 .btn1:hover {
@@ -67,3 +67,4 @@ only screen and (min-device-pixel-ratio: 1.5) {
         overflow-x: hidden;
     }
 }
+
