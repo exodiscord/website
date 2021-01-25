@@ -1,0 +1,24 @@
+/*Footer*/
+
+.bottom {
+    margin-top: 3em;
+    height: 100%;
+    color: white;
+}
+
+.link {
+    color: goldenrod;
+}
+
+.link:hover {
+    color: rgb(146, 33, 221);
+    text-decoration: none;
+}
+
+#grid {
+    color: goldenrod;
+}
+
+#grid:hover {
+    color: rgb(146, 33, 221);
+}
