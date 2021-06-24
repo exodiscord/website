@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{% static 'css/index_style.css' %}">
+    <link rel="stylesheet" href="index_style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
@@ -23,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="{% static 'exo-images/favicon.png' %}">
+    <link rel="icon" href="exo-images/favicon.png">
 
 </head>
 
@@ -59,7 +58,7 @@
 
     <!--Section 1-->
     <section>
-        <div class="section1" style="background-image: url({% static 'exo-images/purple_gradient.png' %});">
+        <div class="section1" style="background-image: url(exo-images/purple_gradient.png);">
             <h6 class="top">Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0
                 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ
                 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ X 0 Ξ
@@ -87,7 +86,7 @@
     </section>
 
     <!--Main-->
-    <div class="parallax" style="background-image: url({% static 'exo-images/purple.jpg' %});"></div>
+    <div class="parallax" style="background-image: url('exo-images/purple.jpg');"></div>
     <section>
         <div class="wrap">
             <div class="main">
@@ -104,7 +103,7 @@
                     </div>
                     <div class="col-md-6">
                         <h1 class="title2" style="animation-delay: 1s">
-                            <img src="{% static 'exo-images/entity.gif' %}" class="mr-4 shadow" alt="" style="width: 2em; border-radius: 20px;"> ΞNTITY
+                            <img src="exo-images/entity.gif" class="mr-4 shadow" alt="" style="width: 2em; border-radius: 20px;"> ΞNTITY
                         </h1>
                         </h1>
                         <h6 class="details" style="animation-delay: 1s">
@@ -116,7 +115,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <a class="btn btn4 btn-block" target="_blank" href="/app">Go to Dashboard</a>
+                        <!-- <a class="btn btn4 btn-block" target="_blank" href="/app">View Commands</a> -->
                         <button class="btn btn1 btn-block" target="_blank" href="https://discord.com/oauth2/authorize?client_id=707641033210593351&permissions=271969398&redirect_uri=https%3A%2F%2Fexobot.xyz%2Foauth2%2Fauthorized&scope=bot%20applications.commands&response_type=code">Invite EXO</button>
                     </div>
                     <div class="col-md-6">
@@ -139,10 +138,10 @@
         <div class="row">
             <div class="col-md-6">
                 <div>
-                    <img style="border-radius: 5px;" class="a-img ban" src="{% static 'exo-images/Verified e.ban.JPG' %}" alt="Error">
+                    <img style="border-radius: 5px;" class="a-img ban" src="exo-images/Verified e.ban.JPG" alt="Error">
                 </div>
                 <div>
-                    <img style="border-radius: 5px;" class="a-img kick" src="{% static 'exo-images/Verified e.kick.JPG' %}" alt="Error">
+                    <img style="border-radius: 5px;" class="a-img kick" src="exo-images/Verified e.kick.JPG" alt="Error">
                 </div>
             </div>
             <div class="col-md-6 first">
@@ -157,17 +156,17 @@
             </div>
             <div class="col-md-7">
                 <div>
-                    <img style="border-radius: 5px;" class="a-img server" src="{% static 'exo-images/Verified e.serverinfo.JPG' %}" alt="">
+                    <img style="border-radius: 5px;" class="a-img server" src="exo-images/Verified e.serverinfo.JPG" alt="">
                 </div>
                 <div>
-                    <img style="border-radius: 5px;" class="a-img channel" src="{% static 'exo-images/Verified e.channelinfo e.roleinfo.JPG' %}" alt="">
+                    <img style="border-radius: 5px;" class="a-img channel" src="exo-images/Verified e.channelinfo e.roleinfo.JPG" alt="">
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div>
-                    <img style="border-radius: 5px;" class="a-img meme" src="{% static 'exo-images/Verified e.meme.JPG' %}" alt="">
+                    <img style="border-radius: 5px;" class="a-img meme" src="exo-images/Verified e.meme.JPG" alt="">
                 </div>
             </div>
             <div class="col-md-8 third">
