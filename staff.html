@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,7 @@
     <title>Ξ X 0 Staff</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="staff_style.css">
+    <link rel="stylesheet" href="{% static 'css/staff_style.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="exo-images/favicon.png">
+    <link rel="icon" href="{% static 'exo-images/favicon.png' %}">
 
 </head>
 
@@ -32,7 +33,7 @@
     <section>
         <div>
             <nav id="header" class="fixed-top navbar navbar-expand-lg">
-                <a class="navbar-brand" href="https://exobot.xyz">ΞX0</a>
+                <a class="navbar-brand" href="/">ΞX0</a>
             </nav>
         </div>
     </section>
@@ -43,7 +44,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div>
-                    <img src="exo-images/error.jpg" alt="" class="shadow">
+                    <img src="{% static 'exo-images/error.jpg' %}" alt="" class="shadow">
                 </div>
                 <h1>PRA7H1K</h1>
                 <h6>Founder and Owner of EXO. Chief Programmer. Manages Staff and Advertising.</h6>
@@ -51,7 +52,7 @@
             </div>
             <div class="col-md-4">
                 <div>
-                    <img src="exo-images/iphone.jpg" alt="" class="shadow">
+                    <img src="{% static 'exo-images/iphone.jpg' %}" alt="" class="shadow">
                 </div>
                 <h1>iPhone</h1>
                 <h6>Co-Founder of EXO. Created the well known EXO logo. Manages Staff and the Official Support Server.</p>
@@ -61,7 +62,7 @@
             </div>
             <div class="col-md-4">
                 <div>
-                    <img src="exo-images/liquid.jpg" alt="" class="shadow">
+                    <img src="{% static 'exo-images/liquid.jpg' %}" alt="" class="shadow">
                 </div>
                 <h1>pra.naenae</h1>
                 <h6>Chief Website Developer.</h6>
@@ -70,7 +71,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div>
-                    <img src="exo-images/rehanavatar.webp" alt="" class="shadow">
+                    <img src="{% static 'exo-images/rehanavatar.webp' %}" alt="" class="shadow">
                 </div>
                 <h1>RehanTheCrayon</h1>
                 <h6>Community Manager at Ξ X 0</h6>
@@ -80,7 +81,7 @@
             </div>
             <div class="col-md-4">
                 <div>
-                    <img src="exo-images/tarun.webp" alt="" class="shadow">
+                    <img src="{% static 'exo-images/tarun.webp' %}" alt="" class="shadow">
                 </div>
                 <h1>TΛRUN</h1>
                 <h6>Moderator in Ξ X 0 | O F F I C I Λ L.</h6>
@@ -95,12 +96,12 @@
                 <div class="row p-5">
                     <div class="col-md-3">
                         <h6 style="font-family: 'Bungee', sans-serif">About</h6>
-                        <a class=" link" href="https://exobot.xyz/staff ">Staff</a> <br>
-                        <a class="link" href="https://exobot.xyz/commands ">Commands</a> <br>
-                        <a class="link" href="https://exobot.xyz/branding ">Branding</a> <br>
+                        <a class=" link" href="/staff ">Staff</a> <br>
+                        <a class="link" href="/commands ">Commands</a> <br>
+                        <a class="link" href="/branding ">Branding</a> <br>
                         <a class="link" href="https://status.exobot.xyz">Status</a> <br>
-                        <a class="link" href="https://cdn.exobot.xyz">CDN</a> <br>
-                        <a class="link" href="https://exobot.xyz/api">API</a>
+                        <a class="link" href="/cdn">CDN</a> <br>
+                        <a class="link" href="/api">API</a>
                     </div>
                     <div class="col-md-3 ">
                         <h6 style="font-family: 'Bungee', sans-serif ">Contact</h6>
@@ -109,11 +110,11 @@
                     </div>
                     <div class="col-md-3 ">
                         <h6 style="font-family: 'Bungee', sans-serif ">Legal</h6>
-                        <a class=" link" href="https://exobot.xyz/terms ">Terms of Service</a> <br>
-                        <a class=" link" href="https://exobot.xyz/privacy ">Privacy Policy</a> <br>
+                        <a class=" link" href="/terms ">Terms of Service</a> <br>
+                        <a class=" link" href="/privacy ">Privacy Policy</a> <br>
                     </div>
                     <div class="col-md-3 ">
-                        <a class="navbar-brand " style="font-size: 1em; font-family: 'Quicksand', sans-serif " href="https://exobot.xyz ">Ξ X 0 <br> X 0 Ξ <br> 0 Ξ X </a>
+                        <a class="navbar-brand " style="font-size: 1em; font-family: 'Quicksand', sans-serif " href="/">Ξ X 0 <br> X 0 Ξ <br> 0 Ξ X </a>
                     </div>
                 </div>
                 <div style="width: 100%; margin-left: 37%; padding-bottom: 1em; font-family: 'Quicksand', sans-serif; color: gray ">

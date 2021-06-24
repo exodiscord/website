@@ -31,7 +31,6 @@ woah {
 
 .section1 {
     width: 100%;
-    background-image: url("https://cdn.prathik.me/purple_gradient.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -102,7 +101,6 @@ woah {
 }
 
 .parallax {
-    background-image: url("exo-images/purple.jpg");
     min-height: 5vh;
     background-attachment: fixed;
     background-position: center;
@@ -126,7 +124,6 @@ woah {
 .btn1:hover {
     font-family: 'Bungee Outline', cursive;
     color: white;
-    background-image: url(exo-images/exo.gif);
     box-shadow: 0px 0px 15px rgb(146, 33, 221);
 }
 
@@ -139,7 +136,6 @@ woah {
 .btn2:hover {
     font-family: 'Bungee Outline', cursive;
     color: white;
-    background-image: url(exo-images/entity.gif);
     box-shadow: 0px 0px 15px rgb(28, 74, 223);
 }
 
