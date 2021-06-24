@@ -6,6 +6,10 @@ html {
 
 /*Header*/
 
+.navbar {
+    background: rgba(255, 255, 255, 0.25);
+}
+
 .navbar-brand {
     color: goldenrod;
     font-size: 2.5em;
@@ -18,15 +22,6 @@ html {
     color: rgb(146, 33, 221);
 }
 
-.widgets {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin-top: 20px;
-    margin-right: 10px;
-    z-index: 1000;
-}
-
 
 /*Body*/
 
@@ -36,14 +31,17 @@ woah {
 
 .section1 {
     width: 100%;
-    background-color:rgb(216, 199, 255);
+    background-image: url("https://cdn.prathik.me/purple_gradient.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     border-bottom: 5px solid purple;
 }
 
 .intro {
     color: black;
     margin-left: 20%;
-    margin-top: 17%;
+    margin-top: 15%;
     font-family: 'Rock Salt', sans-serif;
     font-size: 6em;
     font-style: italic;
@@ -74,7 +72,7 @@ woah {
         margin-top: 1.5em;
     }
     to {
-        margin-top: -1.5em;
+        margin-top: -0.5em;
     }
 }
 
@@ -113,13 +111,13 @@ woah {
 }
 
 .btn {
+    text-align: center;
     color: white;
-    height: 70px;
     font-family: 'Bungee', sans-serif;
-    margin-bottom: 2em;
 }
 
 .btn1 {
+    text-align: center;
     background-color: rgb(146, 33, 221);
     font-size: 2em;
     padding-top: 0.3em;
@@ -164,7 +162,24 @@ woah {
     color: white;
     background-color: rgb(196, 196, 196);
     height: 40px;
-    margin-top: em;
+}
+
+.btn4:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 5px -5px rgb(28, 74, 223), -5px 5px rgb(146, 33, 221);
+}
+
+.btn5 {
+    text-align: center;
+    background-color: rgb(146, 33, 221);
+    padding-top: 0.3em;
+}
+
+.btn5:hover {
+    color: white;
+    background-color: black !important;
+    box-shadow: 5px -5px rgb(28, 74, 223), -5px 5px rgb(146, 33, 221);
 }
 
 .details {
@@ -340,6 +355,10 @@ span {
 .link:hover {
     color: rgb(146, 33, 221);
     text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 
