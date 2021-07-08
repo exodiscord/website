@@ -144,6 +144,7 @@ woah {
     background-color: wheat;
     font-family: 'Quicksand', sans-serif;
     padding-top: 0.4em;
+    margin-top: 5%;
     font-size: 1.7em;
     margin-bottom: 4em;
 }
@@ -362,91 +363,187 @@ span {
 
 
 /* 
+  ##Device = TVs
+  ##Screen = 1440px to higher resolution TVs
+*/
+
+@media (min-width: 1440px) {
+  
+    /* CSS */
+    .intro {
+        font-size: 6em;
+        margin-top: 10%;
+    }
+    .tag1 {
+        margin-top: 2em;
+    }
+    .btn1 {
+        font-size: 125%;
+    }
+    .btn2 {
+        font-size: 125%;
+    }
+    .btn3 {
+        font-size: 125%;
+    }
+  }
+
+/* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-    .intro {
-        font-size: 9em;
-        margin-top: 1.3em;
+  
+    /* CSS */
+    .btn3 {
+        margin-top: 10%;
     }
     .tag1 {
-        font-size: 1.5em;
-        margin-top: 6em;
+        margin-top: 1em;
     }
-    .tag2 {
-        font-size: 1.5em;
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .intro {
+        font-size: 5em;
     }
-    .title1 {
-        font-size: 3em;
-        margin-left: 10%;
+    .ban {
+        margin-left: 2em;
     }
-    .title2 {
-        font-size: 3em;
-        margin-left: 10%;
+    .kick {
+        margin-left: 13em;
     }
-    .details {
-        font-family: 'Work Sans', sans-serif;
-        font-size: 2.3em;
-        margin-bottom: 1em;
-        margin-left: 10%;
+    .channel {
+        margin-left: 10em;
+    }
+    .meme {
+        margin-left: 5em;
     }
     .btn1 {
-        font-size: 2.5em;
-        margin-bottom: 1.5em;
-        width: 90%;
-        margin-left: 10%;
-    }
-    .btn1:hover {
-        font-size: 2.5em;
+        font-size: 175%;
     }
     .btn2 {
-        font-size: 2.5em;
-        margin-bottom: 1.5em;
-        width: 90%;
-        margin-left: 10%;
-    }
-    .btn2:hover {
-        font-size: 2.5em;
+        font-size: 175%;
     }
     .btn3 {
-        font-size: 2.5em;
-        padding-top: 0.1em;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        font-size: 175%;
     }
-}
-
-
-/* 
+  }
+  
+  /* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .intro {
+        font-size: 390%;
+        margin-top: 20%;
+    }
 
-@media (min-width: 768px) and (max-width: 1024px) {}
+
+    .logo {
+        width: 27% !important;
+    }
+    .btn1 {
+        font-size: 125%;
+    }
+    .btn2 {
+        font-size: 125%;
+    }
+    .btn3 {
+        font-size: 125%;
+    }
+    
+
+    .ban {
+        width: 20em;
+    }
+    .kick {
+        width: 20em;
+        margin-left: 10em;
+        margin-top: -3.5em;
+    }
+    .heading1 {
+        font-size: 2em;
+    }
+    .details1 {
+        font-size: 1.25em;
+    }
 
 
-/* 
+    .server {
+        width: 20em;
+    }
+    .channel {
+        width: 20em;
+        margin-left: 6em;
+        margin-top: -3.5em;
+    }
+    .heading2 {
+        font-size: 2em;
+    }
+    .details2 {
+        font-size: 1.25em;
+    }
+
+
+    .meme {
+        width: 20em;
+        margin-top: 20em;
+        margin-left: 3em;
+    }
+    .heading3 {
+        font-size: 2em;
+    }
+    .details3 {
+        font-size: 1.25em;
+    }
+
+  }
+  
+  /* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
-
-
-/* 
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-
-@media (min-width: 481px) and (max-width: 767px) {}
-
-
-/* 
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-
-@media (min-width: 320px) and (max-width: 480px) {}
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .intro {
+        font-size: 3em;
+        margin-left: 0.75em;
+    }
+  }
