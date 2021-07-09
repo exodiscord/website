@@ -509,6 +509,9 @@ span {
     .details3 {
         font-size: 1.25em;
     }
+    .section {
+        overflow-x: hidden;
+    }
 
   }
   
@@ -520,7 +523,9 @@ span {
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     /* CSS */
-    
+    .section {
+        overflow-x: hidden;
+    }
   }
   
   /* 
@@ -531,7 +536,9 @@ span {
   @media (min-width: 481px) and (max-width: 767px) {
     
     /* CSS */
-    
+    .section {
+        overflow-x: hidden;
+    }
   }
   
   /* 
@@ -545,5 +552,8 @@ span {
     .intro {
         font-size: 3em;
         margin-left: 0.75em;
+    }
+    .section {
+        overflow-x: hidden;
     }
   }
